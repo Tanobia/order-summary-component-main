@@ -1,0 +1,181 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+
+.menu {
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 417px;
+    margin-right: 397px;
+    padding-bottom: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 0px 22px rgb(0, 0, 96);
+
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 35em;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 900;
+    font-family: "Red Hat Display";
+    margin-top: 30.00px;
+}
+
+img {
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.hero {
+    width: 425px;
+
+}
+
+
+.hero:hover {
+    cursor: pointer;
+}
+
+
+
+
+p {
+    margin-top: 0px;
+    width: 300px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-family: "Red Hat Display";
+}
+
+.stat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    margin-left: 19px;
+    margin-right: 96px;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-family: "Red Hat Display";
+}
+
+
+.plan {
+    font-family: "Red Hat Display";
+    font-weight: 700;
+}
+
+.change {
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+.change:hover {
+    cursor: pointer;
+}
+
+
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: hsl(223, 47%, 23%);
+    border-radius: 10px;
+}
+
+.button button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 11px rgb(0, 0, 96);
+
+}
+
+
+
+.pay {
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    color: hsl(225, 100%, 98%);
+}
+
+.cancel {
+    margin-left: 130px;
+    margin-top: 20px;
+    font-family: "Red Hat Display";
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+
+}
+
+.cancel:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-device-width: 375px) {
+    body {
+        min-height: 0;
+    }
+
+    .menu {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 20px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+
+    }
+
+    p {
+        width: 275px;
+    }
+
+    .hero {
+        width: 343px;
+        padding-bottom: 35px;
+
+    }
+
+    .data {
+        margin-right: 58px;
+    }
+
+    button {
+        width: 271px;
+    }
+
+    .cancel {
+        margin-left: 80px;
+    }
+}
